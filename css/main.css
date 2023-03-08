@@ -1,0 +1,112 @@
+
+h1{
+    font-size: 40px;
+    color:#335576 ;
+    margin-bottom:0;
+    
+ 
+}
+   
+
+header{
+  background-color: #FEFAF5;
+  min-height: 500px ;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ 
+  
+}
+
+.header__container{
+display:flex;
+justify-content: space-between;
+margin: 0 90px;
+
+
+}
+
+ .hearder__img-hero--sizing{
+    width: 400px;
+    margin-top: 30px;
+ }
+  
+
+ .header-container__text--align{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+   
+}
+
+.header__p-container--margin{
+  margin-right: 20px;
+  margin-top: 0px;
+  
+  
+
+
+}
+ 
+.button--styling{
+    background-color:#DB7A4E;
+    color: white;
+    border-radius:25px;
+    border:none;
+    padding: 10px;
+    width: 170px;
+      
+    
+}
+
+.recommendations__container--flex{
+    display: flex;
+    align-items: center;
+    margin-left: 90px;
+
+}
+
+
+.background_card--hawaii{
+background-image: url(../assets/Images/hawaii.jpg);
+background-position: center;
+background-size: cover;
+}
+
+
+.card__iceland--background{
+background-image: url(../assets/Images/iceland.jpg);
+width: 300px;
+}
+
+.section__container--display{
+    display: flex;
+    justify-content: space-evenly;
+width: 300px;
+ min-height: 23.75rem;
+    
+}
+
+.card__greece--background{
+    background-image: url(../assets/Images/greece.jpg);
+    width: 300px;
+
+}
+
+.card__container--styling{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.207) ;
+    with an opacity of 20%
+     shadow box: 0px 4px 4px black;
+
+
+Color: Black, with an opacity of 20%
+}
+
+
+/*demander comment faire le backgroung  adresse et
+faire les display  */
+
+
+    
