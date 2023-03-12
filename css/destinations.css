@@ -1,0 +1,68 @@
+
+
+h3{
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+
+
+.body__background-hawaii{
+   background-image: url(/assets/Images/hawaii.jpg);
+   background-position: 1280px 1780px;
+   background-size: 1292px 2560px;
+    
+}
+ 
+.body__background-iceland{
+    background-image: url(/assets/Images/iceland.jpg);
+    background-position: 1280px 1780px;
+    background-size: 1292px 2560px;
+     
+}
+
+.body__background-iceland{
+    background-image: url(/assets/Images/greece.jpg);
+    background-position: 1280px 1780px;
+    background-size: 1292px 2560px;
+}  
+
+
+/*the other nav bar styling are located in the global css.*/
+.nav__home--padding{
+    padding-right: 15px;
+
+}
+
+
+.destination-cards__containers{
+    display:flex;
+    justify-content: center;
+    height: 490px;
+    gap: 25px;;
+    
+}
+
+.destination-card__list--styling{
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 8px;;
+    padding: 0;
+    margin: 0px;
+}
+
+.destination-card__list-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FEFAF5;
+    height: 70px;
+    width: 290px;
+    margin: 8px;
+
+}
+

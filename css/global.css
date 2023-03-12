@@ -1,50 +1,157 @@
 
 body{
     font-family:Verdana;
+    padding: 0px;
+    margin:0px
     
 }
 
  ul{
     list-style: none;
-    display:flex;
+    display: flex;
+   
  }
 
     /*verifier si flex blok dans tous les ul*/
-   
+h1{
+        color:white;
+        font-size: 80px;
+        margin: 0px;
+        padding:90px;
+    }
+ 
 h2{
-    font-size: 28px;
+    font-size: 24px;
     color: #335576;
     font-weight: bold;
+
 }
-
-
- 
+header{
+    position: fixed;
+    width: 100%;
+    
+}
 /*navigation bar for all the pages*/
 
-.nav-container--layout{
+.nav-bar{
     display:flex;
     background-color: #FFFFFF;
-    margin:0 90px;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 90px;
+       
 }
 
-.nav__items--styling{
+.nav-bar__items--styling{
 text-decoration: none;
 font-size: 18px;
 color:black;
-margin-left: 50px;
-justify-content: center;
 }
 
-.nav__logo{
-    
-    flex-grow: 1;
-    font-size: 25px;
+.nav-bar__list--display{
+    display: flex;
+}
+
+.nav__elements--padding {
+    padding-left: 15px;
+}
+
+
+
+.nav__logo--styling{
+    font-size: 20px;
     text-decoration: none;
     color: #335576;
     font-weight: bold;
-
     
 }
-/*add an active underline*/
+
+
+.nav__item--underline{
+    border-bottom: 3px solid #DB7A4E;
+    padding-bottom: 13px;
+}
+
+
+footer{
+     display: flex;  
+    background-color: #FEFAF5;
+    margin-top: 100px;
+    padding: 30px 45px;
+    flex-direction: column;
+    align-items: stretch;
+    
+    
+     
+    }
+    
+    
+.container__footer{
+    display: flex;
+    justify-content: space-evenly;
+   
+    
+}
+    
+.container--hours{
+    display: flex;
+    flex-direction: row;
+    }
+
+
+.footer__hours--padding{
+    margin-top: 30px;
+
+}
+
+
+    .footer__icones--size{
+        width: 23px;
+    }
+    
+    .footer__facebook--size{
+        width: 15px;
+    }
+   
+   
+   
+    .display{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between
+    }
+
+    .size-hours{
+        width: 380px;
+        
+    }
+
+   .display-hours{
+
+    display: flex;
+    flex-direction: column;
+    padding-left: 17px;
+   }
+
+
+
+   .display_logo{
+    display: flex;
+    justify-content: space-between;
+    width: 14px;
+}
+.height{
+    height: 146px;
+}
+
+.hours-width{
+    width: 185px;
+
+}
+
+.contact-padding{
+    padding-bottom: 19px;
+}
+
+    
 
