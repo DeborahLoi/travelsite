@@ -2,61 +2,61 @@
 /*navigation bar styling is in the global css file*/
 h1{
     color:white;
-    font-size: 80px;
-    margin:0px; 
-    padding:80px;
+    font-size: 5rem;
+    margin:0rem; 
+    padding:5rem;
 }
 
 h3{
-    font-size: 23px;
-    width: 235px;
+    font-size: 1.4375rem;
+    width: 14.6875rem;
     text-align: center;
-    border-bottom: 2px solid black;
+    border-bottom: .125rem solid black;
 }
 
 
 
 .body__background-hawaii{
     background-image: url(/assets/Images/hawaii.jpg);
-    background-position: 1280px 1780px;
-    background-size: 1292px 2560px;   
+    background-position: 80rem 111.25rem;
+    background-size: 80.75rem 160rem;   
 }
  
 .body__background-iceland{
     background-image: url(/assets/Images/iceland.jpg);
-    background-position: 1280px 1780px;
-    background-size: 1292px 2560px;    
+    background-position: 80rem 111.25rem;
+    background-size: 80.75rem 160rem;    
 }
 
 .body__background-greece{
     background-image: url(/assets/Images/greece.jpg);
-    background-position: 1280px 1780px;
-    background-size: 1292px 2560px;
+    background-position: 80rem 111.25rem;
+    background-size: 80.75rem 160rem;
 }  
 
 
 /*the other nav bar styling are located in the global css.*/
 .nav__home--padding{
-    padding-right: 15px;
+    padding-right: .9375rem;
 }
 
 .activities-cards__containers{
     display:flex;
     justify-content: center;
-    height: 445px;
-    gap: 25px;;
+    height: 27.8125rem;
+    gap: 1.5625rem;;
     
 }
 
 .activities-card__list--styling{
-    font-size: 16px;
+    font-size: 1rem;
     flex-direction: column;
     align-items: center;
     background-color: white;
-    border-radius: 8px;;
+    border-radius: .5rem;;
     padding: 0;
-    margin: 0px;
-    width: 285px;
+    margin: 0rem;
+    width: 17.8125rem;
 }
 
 .activities-card__list-item{
@@ -64,9 +64,9 @@ h3{
     justify-content: space-around;
     align-items: center;
     background-color: #FEFAF5;
-    height: 65px;
-    width: 245px;
-    margin: 8px;
+    height: 4.0625rem;
+    width: 15.3125rem;
+    margin: .5rem;
 }
 
 /*optional hover asked*/

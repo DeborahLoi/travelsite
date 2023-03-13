@@ -1,8 +1,8 @@
 
 body{
     font-family:Verdana;
-    padding: 0px;
-    margin:0px
+    padding: 0rem;
+    margin:0rem
     
 }
 
@@ -13,8 +13,8 @@ ul{
 
 
 h2{
-    font-size: 28px;
-    font-size: 24px;
+    font-size: 1.75rem;
+    font-size: 1.5rem;
     color: #335576;
     font-weight: bold;
 }
@@ -36,21 +36,21 @@ header{
     background-color: #FFFFFF;
     align-items: center;
     justify-content: space-between;
-    padding: 0 80px;      
+    padding: 0 5rem;      
 }
 
 .nav-bar__items--styling{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 1.125rem;
     color:black;
 }
 
 .nav__elements--padding {
-    padding-left: 15px;
+    padding-left: .9375rem;
 }
 
 .nav__logo--styling{
-    font-size: 20px;
+    font-size: 1.25rem;
     text-decoration: none;
     color: #335576;
     font-weight: bold;   
@@ -58,26 +58,26 @@ header{
 
 
 .nav__item--underline{
-    border-bottom: 3px solid #DB7A4E;
-    padding-bottom: 13px;
+    border-bottom: .1875rem solid #DB7A4E;
+    padding-bottom: .8125rem;
 }
 
 footer{ 
     background-color: #FEFAF5;
-    margin-top: 100px
+    margin-top: 6.25rem
     
 }
     
 .footer__infos--display{
     display: flex;
     justify-content: space-around; 
-    padding: 10px;    
+    padding: .625rem;    
 } 
 
 .footer__contact--column{
     display: flex;
     flex-direction: column;
-    padding-left: 17px;  
+    padding-left: 1.0625rem;  
 }
 
 .footer__hours--flex-row{
@@ -86,24 +86,24 @@ footer{
 }
 
 .hours__container--width{
-    width: 185px;
+    width: 11.5625rem;
 }
 
 
 .footer__icones--size{
-    width: 23px;
+    width: 1.4375rem;
 }
 
 .footer__facebook--size{
-    width: 15px;
+    width: .9375rem;
 }
     
 .footer__social--column{
     display: flex;
     flex-direction: column;
     justify-content:space-between;
-    width: 125px;
-    height: 146px;
+    width: 7.8125rem;
+    height: 9.125rem;
 }
 
 .display_logo{

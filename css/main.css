@@ -4,7 +4,7 @@
 /*navigation bar styling is in the global css file*/
 
 h1{
-    font-size: 40px;
+    font-size: 2.5rem;
     color:#335576 ;
     margin-bottom:0;   
 }
@@ -14,10 +14,10 @@ background-color: #FEFAF5;
 
 .hero__container--display{
     display:flex;
-    padding-top: 130px; 
-    padding-bottom: 80px;
-    padding-left: 80px;
-    padding-right: 80px;   
+    padding-top: 8.125rem; 
+    padding-bottom: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;   
 }
 
 
@@ -30,24 +30,24 @@ background-color: #FEFAF5;
 .hero__button--styling{
     background-color:#DB7A4E;
     color: white;
-    border-radius:25px;
+    border-radius:1.5625rem;
     border:none;
-    padding: 10px;
-    width: 170px;
+    padding: .625rem;
+    width: 10.625rem;
 }
 
 .hero__image--size{
-    width: 365px;  
+    width: 22.8125rem;  
 }
 
 .recommendations__title--margin{
-    margin: 30px 80px;
+    margin: 1.875rem 5rem;
 }
 
 .destination-cards__display--center{
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 1.875rem;
     
 }
 
@@ -56,11 +56,11 @@ background-color: #FEFAF5;
     justify-content: right;
     align-items: flex-end ;
     background-size: 100%;
-    width: 300px;
-    height: 449px;
-    border-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.207);
-    box-shadow: 0 4px 4px 1px rgba(0, 0, 0, .2);
+    width: 18.75rem;
+    height: 28.0625rem;
+    border-radius: .3125rem;
+    border: .0625rem solid rgba(0, 0, 0, 0.207);
+    box-shadow: 0 .25rem .25rem .0625rem rgba(0, 0, 0, .2);
 }
 
 .destination-card__image--hawaii{
@@ -77,8 +77,8 @@ background-color: #FEFAF5;
 
 .destination-cards__title--styling{
     color: white;
-    font-size: 23px;
-    padding-right: 10px;   
+    font-size: 1.4375rem;
+    padding-right: .625rem;   
 }
 
 .destination-cards__text-underline--none {
