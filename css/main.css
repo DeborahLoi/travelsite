@@ -1,34 +1,32 @@
 
+
+
+/*navigation bar styling is in the global css file*/
+
 h1{
     font-size: 40px;
     color:#335576 ;
-    margin-bottom:0;
-    
- 
+    margin-bottom:0;   
 }
-   
-/*properties of header container*/
-.hero{
-  background-color: #FEFAF5;
-  min-height: 500px ;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
- 
+.hero__container--background{
+background-color: #FEFAF5;
 }
 
 .hero__container--display{
-display:flex;
-justify-content: space-between;
-padding: 0 90px;
+    display:flex;
+    padding-top: 130px; 
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;   
 }
 
 
 .hero__text--align{
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-end;
 }
+
 .hero__button--styling{
     background-color:#DB7A4E;
     color: white;
@@ -37,36 +35,23 @@ padding: 0 90px;
     padding: 10px;
     width: 170px;
 }
- 
- 
+
 .hero__image--size{
-    width: 400px;
-   
- }
-
-.hero__text--margin{
-    margin-right: 20px;
-
-}
- 
-
-
-.recommendations{
-    display: flex;
-    padding-left: 90px;
-    margin: 20px;
-    
-
+    width: 365px;  
 }
 
-.country-cards__display--center{
+.recommendations__title--margin{
+    margin: 30px 80px;
+}
+
+.destination-cards__display--center{
     display: flex;
     justify-content: center;
     gap: 30px;
     
 }
 
-.country-cards{
+.destination-cards{
     display: flex;
     justify-content: right;
     align-items: flex-end ;
@@ -78,37 +63,28 @@ padding: 0 90px;
     box-shadow: 0 4px 4px 1px rgba(0, 0, 0, .2);
 }
 
+.destination-card__image--hawaii{
+    background-image: url(../assets/Images/hawaii.jpg); 
+}
 
-.country-cards__title--styling{
+.destination-card__image--iceland{  
+    background-image: url(../assets/Images/iceland.jpg);
+}
+
+.destination-card__image--greece{
+    background-image: url(../assets/Images/greece.jpg);     
+}
+
+.destination-cards__title--styling{
     color: white;
     font-size: 23px;
-    padding-right: 10px;
-    
+    padding-right: 10px;   
 }
 
-
-.country-card__image--hawaii{
-    background-image: url(../assets/Images/hawaii.jpg);
-   
-}
-
-
-.country-card__image--iceland{
-
-background-image: url(../assets/Images/iceland.jpg);
-
-}
-
-
-.country-card__image--greece{
-    background-image: url(../assets/Images/greece.jpg);
-     
-}
-
-
-.country-cards__text-underline--none {
+.destination-cards__text-underline--none {
     text-decoration: none;
-   }
+}
+
 
 
 

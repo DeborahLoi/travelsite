@@ -1,8 +1,15 @@
 
+/*navigation bar styling is in the global css file*/
+h1{
+    color:white;
+    font-size: 80px;
+    margin:0px; 
+    padding:80px;
+}
 
 h3{
-    font-size: 25px;
-    width: 300px;
+    font-size: 23px;
+    width: 235px;
     text-align: center;
     border-bottom: 2px solid black;
 }
@@ -10,20 +17,18 @@ h3{
 
 
 .body__background-hawaii{
-   background-image: url(/assets/Images/hawaii.jpg);
-   background-position: 1280px 1780px;
-   background-size: 1292px 2560px;
-    
+    background-image: url(/assets/Images/hawaii.jpg);
+    background-position: 1280px 1780px;
+    background-size: 1292px 2560px;   
 }
  
 .body__background-iceland{
     background-image: url(/assets/Images/iceland.jpg);
     background-position: 1280px 1780px;
-    background-size: 1292px 2560px;
-     
+    background-size: 1292px 2560px;    
 }
 
-.body__background-iceland{
+.body__background-greece{
     background-image: url(/assets/Images/greece.jpg);
     background-position: 1280px 1780px;
     background-size: 1292px 2560px;
@@ -33,36 +38,39 @@ h3{
 /*the other nav bar styling are located in the global css.*/
 .nav__home--padding{
     padding-right: 15px;
-
 }
 
-
-.destination-cards__containers{
+.activities-cards__containers{
     display:flex;
     justify-content: center;
-    height: 490px;
+    height: 445px;
     gap: 25px;;
     
 }
 
-.destination-card__list--styling{
-    font-size: 20px;
+.activities-card__list--styling{
+    font-size: 16px;
     flex-direction: column;
     align-items: center;
     background-color: white;
     border-radius: 8px;;
     padding: 0;
     margin: 0px;
+    width: 285px;
 }
 
-.destination-card__list-item{
+.activities-card__list-item{
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #FEFAF5;
-    height: 70px;
-    width: 290px;
+    height: 65px;
+    width: 245px;
     margin: 8px;
-
 }
 
+/*optional hover asked*/
+ul :hover{
+    background-color: #e4dede;
+    opacity: 0,5;
+}
